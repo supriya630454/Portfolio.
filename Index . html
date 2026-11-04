@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Professional Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Portfolio<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#resume" class="nav-item">Resume</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home / Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="tagline">Hello, I'm</p>
+      <h1>A Passionate <span>Developer</span></h1>
+      <p class="bio-short">
+        Building responsive, modern, and interactive web experiences with clean code and thoughtful design.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">View Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Frontend Developer & Tech Enthusiast</h3>
+          <p>
+            I specialize in building accessible, scalable, and visually appealing web interfaces. With a strong foundation in core web standards and modern software practices, I focus on turning complex challenges into seamless digital interactions.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <strong>Education:</strong> B.Tech Graduate
+            </div>
+            <div class="highlight-item">
+              <strong>Focus:</strong> Responsive Web Design & Frontend Engineering
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h4>HTML5</h4>
+          <p>Semantic markup, SEO optimization, and web accessibility.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h4>CSS3</h4>
+          <p>Flexbox, Grid, keyframe animations, and mobile-first responsive design.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <h4>JavaScript</h4>
+          <p>DOM manipulation, ES6+ features, REST APIs, and asynchronous programming.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-git-alt"></i>
+          <h4>Git & GitHub</h4>
+          <p>Version control, collaboration workflows, and source code management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+          <div class="project-info">
+            <h3>Task Management App</h3>
+            <p>A responsive task tracker utilizing browser local storage for seamless task persistence and status filtering.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <div class="project-info">
+            <h3>Expense Tracker</h3>
+            <p>Interactive web application that tracks cash flow, dynamically calculates totals, and renders category insights.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>LocalStorage</span><span>CSS Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <i class="fa-solid fa-music"></i>
+          </div>
+          <div class="project-info">
+            <h3>Web Music Player</h3>
+            <p>A custom audio player interface featuring track navigation, seekable progress bars, and custom audio controls.</p>
+            <div class="project-tags">
+              <span>Audio API</span><span>CSS Flexbox</span><span>UI/UX</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section bg-alt">
+    <div class="container text-center">
+      <h2 class="section-title">My <span>Resume</span></h2>
+      <p class="resume-intro">
+        Interested in reviewing my full technical background, academic qualifications, and experience?
+      </p>
+      <!-- Replace sample-resume.pdf with the path to your actual PDF file -->
+      <a href="sample-resume.pdf" download="Resume.pdf" class="btn primary-btn resume-btn">
+        <i class="fa-solid fa-download"></i> Download Resume / CV
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get in <span>Touch</span></h2>
+      <div class="contact-wrapper">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+            <small class="error-msg" id="nameError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" />
+            <small class="error-msg" id="emailError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject of your message" />
+            <small class="error-msg" id="subjectError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            <small class="error-msg" id="messageError"></small>
+          </div>
+
+          <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+          <p class="form-success" id="formSuccess"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+              </html>
+  
